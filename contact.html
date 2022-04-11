@@ -7,19 +7,28 @@
     <title>Document</title>
   </head>
   <body>
-    <h1>Contact details</h1>
-    <table>
-      <tr>
-        <th>Whatsapp</th>
-        <th>E-mail Adress</th>
-        <th>Telephone number</th>
-      </tr>
-      <tr>
-        <td>065 777 8888</td>
-        <td>tristandaniels@gmail.com</td>
-        <td>021 222 3333</td>
-      </tr>
-    </table>
-    <a href="index.html">Home page</a>
+    <form action="https://formspree.io/f/xjvlagle" method="POST">
+      <label>
+        Name:
+        <input type="text" name="name" />
+      </label>
+      <label>
+        Email:
+        <input type="email" name="email" />
+      </label>
+      <label>
+        Contact number:
+        <input type="text" name="contact number" />
+      </label>
+      <label>
+        Date:
+        <input type="date" name="date" />
+      </label>
+      <label>
+        Time:
+        <input type="time" name="time" />
+      </label>
+      <button type="submit">Send</button>
+    </form>
   </body>
 </html>
